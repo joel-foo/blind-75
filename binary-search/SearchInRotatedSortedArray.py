@@ -1,3 +1,5 @@
+# Time: O(logn), Space:O(1)
+# Similar logic to FindMinInRotatedSortedArray, remember the invariant that there is always at least one sorted half.
 class Solution:
     def search(self, nums: List[int], target: int) -> int: 
         l = 0

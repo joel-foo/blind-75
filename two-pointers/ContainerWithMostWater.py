@@ -15,9 +15,8 @@ class Solution:
         return max_area
 
 # Proof: Let Hl and Hr be the left and right heights, where Hl = Hr, with width (Hr - Hl).
-# Suppose we choose to move Hl to the right, call the new height Hl'. Then there
-# are 3 cases: 1. Hl' = Hr 2. Hl' < Hr 3. Hl > Hr. In all three cases, it is easy # to see that the new maximum area will always be lower than the original. 
-# The same thing if we move Hr instead. We will not miss out any maximum area 
-# larger than the current if we move either pointer. 
+# Suppose we choose to move Hl to the right, call the new height Hl'. Then there are 3 cases: 1. Hl' = Hr 2. Hl' < Hr 3. Hl > Hr. 
+# In all three cases, it is easy to see that the new maximum area will always be lower than the original. 
+# The same thing if we move Hr instead. We will not miss out any maximum area larger than the current if we move either pointer. 
 # It does not matter whether Hl or Hr is moved.  
 
